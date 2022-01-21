@@ -1,0 +1,154 @@
+main {
+  background-color: #f5f5fe;
+}
+
+.main .container {
+  min-height: 100vh;
+}
+
+.events-header {
+  margin-bottom: 1rem;
+}
+
+.events-header h1 {
+  font-size: 2rem;
+  margin-bottom: .5rem;
+}
+
+.events-search {
+  margin-bottom: 3rem;
+}
+
+.events-search h2 {
+  margin: 2rem 0 1rem 0;;
+}
+
+.events-searchbar {
+  padding: 1rem;
+  background-color: #fff;
+  box-shadow: 0 4px 8px 1px rgba(0, 0, 0, 0.2);
+  transition: all .1s linear;
+}
+
+.events-searchbar input {
+  font-size: 1rem;
+  width: 100%;
+}
+
+.focus {
+  box-shadow: 0 4px 8px 1px rgba(185, 25, 36, 0.3);
+}
+
+.events {
+  margin-bottom: 2rem;
+}
+
+.events h2 {
+  margin-bottom: 1rem;
+}
+
+.events-week,
+.events-all {
+  font-weight: 400;
+  text-decoration: underline;
+  text-decoration-color: #b91924;
+  text-underline-offset: .2rem;
+}
+
+.events-all {
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.events-all:hover {
+  text-decoration: underline;
+  text-decoration-color: #b91924;
+}
+
+.event-card {
+  padding: 2rem;
+  background-color: #fff;
+  box-shadow: 2px 4px 8px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0.3rem;
+  cursor: pointer;
+  transition: all .1s ease-in-out;
+}
+
+.event-card:hover {
+  transform: scale(1.01);
+}
+
+.event-card p {
+  line-height: 20px;
+  margin: 1.2rem 0;
+}
+
+.card-info {
+  display: flex;
+  margin-top: .5rem;
+}
+
+.event-card .date,
+.event-card .location,
+.event-card .audience {
+  display: flex;
+  align-items: center;
+}
+
+.event-card .audience {
+  margin-left: 1.5rem;
+}
+
+.icon-container {
+  width: 30px;
+  height: 30px;
+  margin-right: 1rem;
+}
+
+.event-card i {
+  font-size: 1.2rem;
+  color: #b91924;
+}
+
+.news {
+  margin-bottom: 3rem;
+}
+
+.news-card {
+  position: relative;
+  background-color: #fff;
+  box-shadow: 2px 4px 8px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0.3rem;
+  cursor: pointer;
+  transition: all .1s ease-in-out;
+}
+
+.news-card img {
+  width: 100%;
+  border-radius: 0.3rem 0.3rem 0 0;
+}
+
+.news-card:hover {
+  transform: scale(1.01);
+}
+
+.news h2 {
+  margin-bottom: 1rem;
+}
+
+.news-card-info {
+  padding: 1.5rem 2rem;
+}
+
+.news-card-info p {
+  line-height: 20px;
+  margin: 1rem 0;
+}
+
+.news-card-cta {
+  display: inline-flex;
+  color: #fff;
+  padding: .5rem 1rem;
+  background-color: #b91924;
+  border-radius: .2rem;
+}

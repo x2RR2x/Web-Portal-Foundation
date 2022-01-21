@@ -1,0 +1,76 @@
+main {
+    background-color: #f5f5fe;
+}
+
+.cv-finder .container {
+    min-height: 100vh;
+}
+
+.cv-finder-header {
+    margin-bottom: 2rem;
+}
+
+.cv-finder-header h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.cv-search {
+    padding: 1rem;
+    margin-top: 2rem;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0.3rem;
+    transition: all .1s linear;
+}
+
+.cv-search input {
+    font-size: 1rem;
+    width: 100%;
+}
+
+.focus {
+    box-shadow: 0 4px 8px 1px rgba(185, 25, 36, 0.3);
+}
+
+.cv-list.grid {
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+}
+
+.cv-card {
+    flex-direction: column;
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 2px 4px 8px 3px rgba(0, 0, 0, 0.3);
+    border-radius: 0.3rem;
+    cursor: pointer;
+}
+
+.cv-card .student-name {
+    margin: 1.5rem 0 .5rem 0;
+}
+
+.cv-card .student-course {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.cta-cv {
+    color: #b91924;
+    padding: .5rem 1rem;
+    border: 1px solid #b91924;
+    border-radius: .3rem;
+    transition: all .2s ease-in-out;
+}
+
+.cta-cv:hover {
+    color: #fff;
+    background-color: #b91924; 
+}
+
+
+.user-pfp {
+    width: 100px;
+    border: 2px solid #b91924;
+    border-radius: 50%;
+}

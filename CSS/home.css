@@ -1,0 +1,167 @@
+.navigation{
+  background-color: #e6ccff;
+  width: 100%;
+  height: 93px;
+  position: relative;
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+}
+li:visited {
+  text-decoration: none;
+}
+li {
+      font-family: 'Lato', sans-serif;
+   }
+
+   ul{
+     display: flex;
+     padding: 37px 0;
+     list-style-type: none;
+     margin-left: 140px;
+   }
+
+ul:link{
+  text-decoration: none;
+}
+
+li{
+  margin-right: 25px;
+  margin-bottom: -50px;
+}
+
+header{
+background-color: #F2F2F2
+}
+
+body{
+  background-color: #F2F2F2
+}
+.navbarlogo{
+  width: 115px;
+  height: 115px;
+  margin-top: -50px;
+  margin-right: 900px;
+}
+
+.navbarprofile{
+  width: 40px;
+  height: 40px;
+  margin-top: -18px
+}
+.navbarsignout{
+  width: 35px;
+  height: 35px;
+  margin-top: -9px;
+  margin-right: 20px;
+}
+
+.citylogo2{
+  margin-left: 80px;
+  margin-top: 20px;
+}
+
+p{
+  font-family: 'Lato', sans-serif;
+  font-size: 27px;
+  margin-left: 600px;
+  margin-top: -200px;
+}
+
+p2{
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 600px;
+  margin-top: -200px;
+}
+
+h1{
+  font-family: 'Lato', sans-serif;
+  margin-left: 600px;
+  margin-top: 100px;
+}
+
+.h2{
+  margin-left: 900px;
+  margin-top: -40px;
+}
+
+.h3{
+  margin-left: 1225px;
+  margin-top: -40px;
+}
+
+.map2{
+  margin-left: 525px;
+  margin-top: 100px;
+}
+
+.maptext{
+  margin-top: 75px;
+  margin-left: 535px;
+  font-size: 20px;
+}
+
+.maptext2{
+  margin-top: -140px;
+  margin-left: 850px;
+  font-size: 20px;
+}
+
+.maptext3{
+  margin-top: -160px;
+  margin-left: 1200px;
+  font-size: 20px;
+}
+
+h2{
+font-family: 'Lato', sans-serif;
+}
+
+footer{
+background-color: #e6ccff;
+}
+
+.footer_text{
+  margin-top: 80px;
+  margin-left: 50px;
+
+}
+
+.footer_logo{
+  width: 217px;
+  height: 127px;
+  margin-top: 20px;
+  margin-left: 60px;
+}
+
+.facebook{
+  width: 40px;
+  height: 40px;
+  margin-top: -100px;
+  margin-left: 1300px;
+  margin-bottom: 85px
+}
+
+.twitter{
+  width: 40px;
+  height: 40px;
+  margin-top: -100px;
+  margin-bottom: 85px
+}
+.instagram{
+  width: 60px;
+  height: 40px;
+  margin-top: -100px;
+  margin-bottom: 85px
+}
+.youtube{
+  width: 40px;
+  height: 40px;
+  margin-top: -100px;
+  margin-bottom: 85px
+}
+.linkedin{
+  width: 70px;
+  height: 40px;
+  margin-top: -100px;
+  margin-bottom: 85px
+}

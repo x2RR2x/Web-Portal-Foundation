@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link href="./css/index.css" type="text/css" rel="stylesheet">
+   <link href="./css/chat.css" type="text/css" rel="stylesheet">
+   <title>Chat</title>
+</head>
+<body>
+   <header>
+      <div class="container flex">
+         <a href="#">
+            <img src="./images/logo-3.png" class="navbar-logo" alt="Header Logo">
+         </a>
+         <div class="burger">
+            <div class="line-1"></div>
+            <div class="line-2"></div>
+            <div class="line-3"></div>
+         </div>
+         <nav class="navbar flex">
+            <a href="#" class="navlink">Home</a>
+            <a href="./events.html" class="navlink">Events</a>
+            <a href="#" class="navlink">Map</a>
+            <a href="./cv-finder.html" class="navlink">CV Finder</a>
+            <a href="#" class="navlink">Contact</a>
+            <p>
+               <a href="./profile.html">
+                  <i class="fas fa-user"></i>
+               </a>
+               <a href="">
+                  <i class="fas fa-sign-out-alt"></i>
+               </a>
+            </p>
+         </nav>
+      </div>
+   </header>
+   <main>
+      <section class="chat">
+         <div class="container flex">
+            <section class="chat-box">
+               <div class="chat-header">
+                  <h2 class="chat-name">
+                     Global Chat
+                     <i class="fas fa-users"></i>
+                  </h2>
+               </div>
+               <div class="chat-messages">
+                  <div class="chat-message flex received">
+                     <img src="./images/asad_rounded.png" alt="User's Profile Picture" class="user-chat-pfp">
+                     <p>Hello this is a message.</p>
+                  </div>
+                  <div class="chat-message flex sent">
+                     <img src="./images/hubert-rounded.png" alt="User's Profile Picture" class="user-chat-pfp">
+                     <p>Hello this also is a message.</p>
+                  </div>
+               </div>
+               <form class="chat-input">
+                  <button class="attach-btn">
+                     <i class="fas fa-paperclip"></i>
+                  </button>
+                  <input type="text" placeholder="Say something nice..."/>
+                  <button class="emoji-btn">
+                     <i class="far fa-laugh"></i>
+                  </button>
+                  <button type="submit" class="send-btn">
+                     <i class="fas fa-paper-plane"></i>
+                  </button>
+               </form>
+            </section>
+            <section class="chat-sidebar">
+               <div class="chat-sidebar-header flex">
+                  <div class="user">
+                     <h1 class="user-name">Hubert Stoklosa</h1>
+                     <p class="status flex">
+                        Status
+                        <i class="fas fa-circle online"></i>
+                     </p>
+                  </div>
+                  <i class="far fa-plus-square"></i>
+               </div>
+               <div class="chat-sidebar-search">
+                  <h1>Chats</h1>
+                  <form class="chat-search">
+                     <input type="text" placeholder="Look for chats...">
+                  </form>
+               </div>
+               <div class="chat-sidebar-chats">
+                  <div class="user-chat flex">
+                     <div class="user-status">
+                        <img src="./images/richie_rounded.png" alt="User's PFP" class="user-chat-pfp">
+                        <i class="fas fa-circle online"></i>
+                     </div>
+                     <div class="chat-content ">
+                        <p class="user-name">Richie Ring</p>
+                        <p class="last-message">
+                           <i class="fas fa-paperclip"></i>
+                           Attachement
+                        </p>
+                     </div>
+                     <i class="fas fa-circle not-read"></i>
+                  </div>
+                  <div class="user-chat flex">
+                     <div class="user-status">
+                        <img src="./images/asad_rounded.png" alt="User's PFP" class="user-chat-pfp">
+                        <i class="fas fa-circle online"></i>
+                     </div>
+                     <div class="chat-content ">
+                        <p class="user-name">Asad Muhammad</p>
+                        <p class="last-message">
+                           <i class="fas fa-comment"></i>
+                           Hello Hubert, what's up?
+                        </p>
+                     </div>
+                     <i class="fas fa-circle read"></i>
+
+                  </div>
+                  <div class="user-chat flex">
+                     <div class="user-status">
+                        <img src="./images/aman_rounded.png" alt="User's PFP" class="user-chat-pfp">
+                        <i class="fas fa-circle offline"></i>
+                     </div>
+                     <div class="chat-content ">
+                        <p class="user-name">Aman Butt</p>
+                        <p class="last-message">
+                           <i class="fas fa-paperclip"></i>
+                           Attachement
+                        </p>
+                     </div>
+                     <i class="fas fa-circle read"></i>
+                  </div>
+               </div>
+            </section>
+         </div>
+      </section>
+   </main>
+   <footer>
+      <div class="container flex">
+         <section class="copyright flex">
+            <p class="copyright-text">
+               <b>Developed by: Hubert Stoklosa</b>
+            </p>
+            <p class="copyright-text">City, University of London © 2022</p>
+            <a href="#">
+               <img src="./images/logo-1.png" class="footer-logo" alt="Foooter Logo">
+            </a>
+         </section>
+         <section class="social-icons flex">
+            <a href="https://www.facebook.com/CityUoLondon/" target="_blank">
+               <i class="fab fa-facebook-square"></i>
+            </a>
+            <a href="https://www.instagram.com/cityuniversitylondon/?hl=en" target="_blank">
+               <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://twitter.com/CityUniLondon" target="_blank">
+               <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://www.youtube.com/c/cityuniversitylondon" target="_blank">
+               <i class="fab fa-youtube"></i>
+            </a>
+            <a href="https://www.linkedin.com/school/city-university-london/" target="_blank">
+               <i class="fab fa-linkedin-in"></i>
+            </a>
+         </section>
+   </footer>
+   <script src="./js/index.js"></script>
+</body>
+</html>

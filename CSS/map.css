@@ -1,0 +1,154 @@
+.navigation{
+  background-color: #e6ccff;
+  width: 100%;
+  height: 93px;
+  position: relative;
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+}
+li:visited {
+  text-decoration: none;
+}
+li {
+      font-family: 'Lato', sans-serif;
+   }
+
+   ul{
+     display: flex;
+     padding: 37px 0;
+     list-style-type: none;
+     margin-left: 1200px;
+   }
+
+ul:link{
+  text-decoration: none;
+}
+
+li{
+  margin-right: 25px;
+  margin-bottom: -50px;
+}
+
+header{
+background-color: #F2F2F2
+}
+
+body{
+  background-color: #F2F2F2
+}
+.navbarlogo{
+  width: 115px;
+  height: 115px;
+  margin-top: -65px
+}
+
+.navbarprofile{
+  width: 40px;
+  height: 40px;
+  margin-top: -35px
+}
+.navbarsignout{
+  width: 35px;
+  height: 35px;
+  margin-top: -27px;
+  border-right: 20px;
+}
+
+
+
+
+h1{
+  padding-top: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 72px;
+}
+
+p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 28px;
+}
+
+p2{
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+}
+
+footer{
+background-color: #e6ccff;
+}
+
+.footer_text{
+  margin-top: 75px;
+  margin-left: 50px;
+
+}
+
+.footer_logo{
+  width: 217px;
+  height: 127px;
+  margin-top: 20px;
+  margin-left: 60px;
+}
+
+.facebook{
+  width: 40px;
+  height: 40px;
+  margin-top: -100px;
+  margin-left: 1300px;
+  margin-bottom: 85px
+}
+
+.twitter{
+  width: 40px;
+  height: 40px;
+  margin-top: -100px;
+  margin-bottom: 85px
+}
+.instagram{
+  width: 60px;
+  height: 40px;
+  margin-top: -100px;
+  margin-bottom: 85px
+}
+.youtube{
+  width: 40px;
+  height: 40px;
+  margin-top: -100px;
+  margin-bottom: 85px
+}
+.linkedin{
+  width: 70px;
+  height: 40px;
+  margin-top: -100px;
+  margin-bottom: 85px
+}
+
+
+article {
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: column;
+   flex-direction: column;
+}
+
+
+@media screen and (min-width: 2430px){
+  article {
+   -webkit-flex-direction: row;
+    flex-direction: row;
+  }
+  article > * {
+    -webkit-flex: 1;
+    flex: 1;
+  }
+  aside {
+
+  -webkit-order: -1;
+   order: -1;
+  }
+  article > div {
+
+    -webkit-flex: 3;
+    flex: 3;
+  }
